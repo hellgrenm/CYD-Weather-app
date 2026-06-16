@@ -11,8 +11,8 @@ extern const lv_img_dsc_t img_btn_close;
 extern const lv_img_dsc_t img_btn_close_pressed;
 extern const lv_img_dsc_t img_pc_icon;
 extern const lv_img_dsc_t img_recycle_icon;
-extern const lv_img_dsc_t img_start_btn;
-extern const lv_img_dsc_t img_start_btn_pressed;
+extern const lv_img_dsc_t img_start_button;
+extern const lv_img_dsc_t img_start_button_pressed;
 
 #ifndef EXT_IMG_DESC_T
 #define EXT_IMG_DESC_T

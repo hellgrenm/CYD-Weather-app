@@ -25,11 +25,11 @@ typedef struct _objects_t {
     lv_obj_t *city_string;
     lv_obj_t *close_btn;
     lv_obj_t *menu_bar_container;
-    lv_obj_t *start_btn;
-    lv_obj_t *time_container;
-    lv_obj_t *updated_text;
     lv_obj_t *obj1;
     lv_obj_t *obj2;
+    lv_obj_t *start_btn;
+    lv_obj_t *container_time;
+    lv_obj_t *updated_text;
 } objects_t;
 
 extern objects_t objects;

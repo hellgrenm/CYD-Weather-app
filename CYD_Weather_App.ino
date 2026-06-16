@@ -1,5 +1,5 @@
 #include <lvgl.h>
-#include "ui.h"  // Din EEZ Studio-fil (se till att alla genererade .c/.h-filer ligger i samma mapp)
+#include "ui.h"  
 #include <TFT_eSPI.h>
 #include <XPT2046_Touchscreen.h>
 #include <WiFi.h>
