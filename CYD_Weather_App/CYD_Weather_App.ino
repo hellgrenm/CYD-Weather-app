@@ -13,8 +13,8 @@
 #define XPT2046_CLK 25
 #define XPT2046_CS 33
 
-const char *ssid = "WIFI-name";
-const char *password = "WIFI-password";
+const char *ssid = "WIFI-NAME";
+const char *password = "WIFI-PASSWORD";
 
 String latitude = "59.3793";
 String longitude = "13.5036";
@@ -38,7 +38,6 @@ const char degree_symbol[] = "\u00B0C";
 
 uint32_t last_weather_update_time = 0;
 const uint32_t weather_interval = 600000;
-
 
 
 
@@ -225,14 +224,16 @@ void loop() {
   lv_tick_inc(current_time - lastTick);
   lastTick = current_time;
 
-  // 2. TIMER: Every 10 minute
+  //TIMER: Every 10 minute
   if (current_time - last_weather_update_time >= weather_interval) {
-    last_weather_update_time = current_time; // Nollställ timern
+    last_weather_update_time = current_time; // reset timer
     Serial.println("10 minutes has passed, updating weather data.");
     get_weather_data();
   }
 
 
   lv_timer_handler();
+  ui_tick();
   delay(5);
 }
+

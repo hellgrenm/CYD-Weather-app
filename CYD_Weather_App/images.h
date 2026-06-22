@@ -13,6 +13,8 @@ extern const lv_img_dsc_t img_pc_icon;
 extern const lv_img_dsc_t img_recycle_icon;
 extern const lv_img_dsc_t img_start_button;
 extern const lv_img_dsc_t img_start_button_pressed;
+extern const lv_img_dsc_t img_qmark;
+extern const lv_img_dsc_t img_qmark_pressed;
 
 #ifndef EXT_IMG_DESC_T
 #define EXT_IMG_DESC_T
@@ -22,7 +24,7 @@ typedef struct _ext_img_desc_t {
 } ext_img_desc_t;
 #endif
 
-extern const ext_img_desc_t images[6];
+extern const ext_img_desc_t images[8];
 
 #ifdef __cplusplus
 }

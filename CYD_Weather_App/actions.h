@@ -7,6 +7,9 @@
 extern "C" {
 #endif
 
+extern void action_show_about(lv_event_t * e);
+extern void action_close_about(lv_event_t * e);
+
 #ifdef __cplusplus
 }
 #endif

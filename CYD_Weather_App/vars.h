@@ -13,10 +13,13 @@ extern "C" {
 // Flow global variables
 
 enum FlowGlobalVariables {
-    FLOW_GLOBAL_VARIABLE_NONE
+    FLOW_GLOBAL_VARIABLE_HIDE_POPUP = 0
 };
 
 // Native global variables
+
+extern bool get_var_hide_popup();
+extern void set_var_hide_popup(bool value);
 
 #ifdef __cplusplus
 }

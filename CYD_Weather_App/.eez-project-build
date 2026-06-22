@@ -1,0 +1,24 @@
+{
+  "files": [
+    "actions.h",
+    "fonts.h",
+    "images.c",
+    "images.h",
+    "screens.c",
+    "screens.h",
+    "structs.h",
+    "styles.c",
+    "styles.h",
+    "ui.c",
+    "ui.h",
+    "ui_image_btn_close.c",
+    "ui_image_btn_close_pressed.c",
+    "ui_image_pc_icon.c",
+    "ui_image_qmark.c",
+    "ui_image_qmark_pressed.c",
+    "ui_image_recycle_icon.c",
+    "ui_image_start_button.c",
+    "ui_image_start_button_pressed.c",
+    "vars.h"
+  ]
+}

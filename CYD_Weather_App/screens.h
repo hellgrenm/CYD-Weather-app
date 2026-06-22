@@ -30,6 +30,12 @@ typedef struct _objects_t {
     lv_obj_t *start_btn;
     lv_obj_t *container_time;
     lv_obj_t *updated_text;
+    lv_obj_t *qmark;
+    lv_obj_t *info_container;
+    lv_obj_t *info_container_1;
+    lv_obj_t *obj3;
+    lv_obj_t *made_by;
+    lv_obj_t *close_info;
 } objects_t;
 
 extern objects_t objects;
