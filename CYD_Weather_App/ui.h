@@ -2,7 +2,6 @@
 #define EEZ_LVGL_UI_GUI_H
 
 #include <lvgl.h>
-
 #include "screens.h"
 
 #ifdef __cplusplus

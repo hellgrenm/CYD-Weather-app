@@ -214,8 +214,9 @@ void create_screen_main() {
             lv_obj_set_style_height(obj, 25, LV_PART_MAIN | LV_STATE_DEFAULT);
         }
         {
+            // active_program
             lv_obj_t *obj = lv_label_create(parent_obj);
-            objects.obj2 = obj;
+            objects.active_program = obj;
             lv_obj_set_pos(obj, 69, 215);
             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
             lv_obj_set_style_text_color(obj, lv_color_hex(0x000000), LV_PART_MAIN | LV_STATE_DEFAULT);
@@ -327,7 +328,7 @@ void create_screen_main() {
                         lv_obj_t *parent_obj = obj;
                         {
                             lv_obj_t *obj = lv_label_create(parent_obj);
-                            objects.obj3 = obj;
+                            objects.obj2 = obj;
                             lv_obj_set_pos(obj, -46, 3);
                             lv_obj_set_size(obj, LV_SIZE_CONTENT, LV_SIZE_CONTENT);
                             lv_obj_remove_flag(obj, LV_OBJ_FLAG_SCROLLABLE);
